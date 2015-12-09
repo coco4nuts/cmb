@@ -5,6 +5,8 @@
   <title>Cabinet Médical Batelière</title>                
   <meta charset="utf-8"/>
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -36,25 +38,29 @@
   <section class="jumbotron" id="menu1">
       <div class="container">
           <h1 class="well">Bienvenue au Cabinet </h1>
-          <p>Le Cabinet Médical de Batelière est ouvert du lundi au vendredi de 7h00 à 19h00;<br/>
-          Les consultations sont possibles avec ou sans rendez-vous.<br/>
-          Le Dr ROY-CAMILLE assure une permanence un samedi sur deux de 6h00 à 12h00.
-          </p>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <p class="text-center">Le Cabinet Médical de Batelière est ouvert du lundi au vendredi de 7h00 à 19h00.<br/>
+              Les consultations sont possibles avec ou sans rendez-vous.<br/>
+              Le Dr ROY-CAMILLE assure une permanence un samedi sur deux de 6h00 à 12h00.
+              </p>
+            </div>
+          </div>
           
           <div class="row">
             <div class="col-md-6">
-              <p>Dr Bertrand CARDI<br/>
-              Médecin conventionné - Secteur 1<br/>
-              • Activités :<br/>
-              • Médecine générale<br/>
+              <h2>Dr Bertrand CARDI</h2>
+              <p>Médecin conventionné - Secteur 1<br/>
+              <h4>Activités :</h4>
+              <p>• Médecine générale<br/>
               • Acupuncture</p>
             </div>
               
             <div class="col-md-6">
-              <p>Dr Maurice-Yves ROY-CAMILLE<br/>
-              Médecin conventionné - Secteur 1<br/>
-               • Activités :<br/>
-              • Médecine générale<br/>
+              <h2>Dr Maurice-Yves ROY-CAMILLE</h2>
+              <p>Médecin conventionné - Secteur 1<br/>
+              <h4>Activités :</h4>
+              <p>• Médecine générale<br/>
               • Acupuncture<br/>
               • Médecin fédéral de plongée</p>
             </div>
@@ -62,14 +68,14 @@
           
           <div class="row">
             <div class="col-md-6">
-              <p>• 	Absences :
-              Le Docteur CARDI sera absent du jeudi 10/09 au vendredi 02/10.
+              <h4 class="orange">• 	Absences :</h4>
+              <p>Le Docteur CARDI sera absent du jeudi 10/09 au vendredi 02/10.
               Il reprendra ses consultations à partir du lundi 05/10 aux horaires habituels.
               Le Docteur CARDI sera remplacé par le Docteur AMBROISINE qui travaillera aux horaires habituels.</p>
             </div>
             <div class="col-md-6">
-              <p>• 	Absences :
-              Le Docteur ROY-CAMILLE sera absent du lundi 14/09 au lundi 21/09.
+              <h4 class="orange">• 	Absences :</h4>
+              <p>Le Docteur ROY-CAMILLE sera absent du lundi 14/09 au lundi 21/09.
               Il reprendra ses consultations à partir du mercredi 23/09 aux horaires habituels.
               Le Docteur ROY-CAMILLE ne sera pas remplacé.</p>
             </div>
@@ -80,38 +86,67 @@
   
   <section class="jumbotron" id="menu2">
       <div class="container">
-          <h1 class="well">Horaires</h1>
+          <h1 class="well">Horaires des consultations et visites</h1>
           
           <div class="row">
             <div class="col-md-6">
-              <p>• Horaires des Consultations du Dr Cardi:<br/>
-              - Lundi : 	13h00 > 19h00<br/>
-              - Mardi : 	07h30 > 12h00 14h00 > 19h00*<br/>
-              - Jeudi : 	13h00 > 19h00<br/>
-              - Vendredi : 	07h30 > 13h00<br/>
-              * 	Mardi après-midi sur rendez-vous uniquement</p>
-              	
-              <p>• Horaires des Visites à domicile :<br/>
-              - Lundi : 	-<br/>
-              - Mercredi : 	matin<br/>
-              - Jeudi : 	-</p>
-          </div>
+              <h3>• Horaires des Consultations du Dr Cardi</h3>
+              <div class="row">
+                <div class="col-xs-4">
+                   <p>- Lundi :<br/>
+                  - Mardi :<br/>
+                  - Jeudi :<br/>
+                  - Vendredi :</p>
+                </div>
+                <div class="col-xs-8">
+                   <p>13h00 > 19h00<br/>
+                    07h30 > 12h00 14h00 > 19h00<br/>
+                    13h00 > 19h00<br/>
+                    07h30 > 13h00</p>
+                 </div>
+                </div>
+                <p>* 	Mardi après-midi sur rendez-vous uniquement</p>
+                <h3>• Horaires des Visites à domicile</h3>
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p>- Lundi :<br/>- Mercredi :<br/>- Jeudi :</p>
+                  </div>
+                  <div class="col-xs-8">
+                    <p> - <br/>matin<br/> - </p>
+                  </div>
+                </div>
+            </div>
           
-          <div class="col-md-6">
-              <p>• Horaires des Consultations du Dr ROY-CAMILLE :<br/>
-              - Lundi : 	06h00 > 13h00<br/>
-              - Mercredi : 	06h00 > 12h00 14h00 > 19h00<br/>
-              - Jeudi : 	06h00 > 13h00<br/>
-              - Vendredi : 	13h00 > 19h00<br/>
-              - Samedi : 	06h00 > 12h00*<br/>
-              (un samedi sur deux) *Septembre 	les 05/09 et 26/09</p>
-             <p>• Horaires des Visites à domicile :<br/>
-              - Lundi : 	après-midi<br/>
-              - Mardi : 	matin<br/>
-              - Jeudi : 	après-midi</p>
+            <div class="col-md-6">
+              <h3>• Horaires des Consultations du Dr ROY-CAMILLE</h3>
+              <div class="row">
+                <div class="col-xs-4">
+                   <p>- Lundi :<br/>
+                  - Mercredi :<br/>
+                  - Jeudi :<br/>
+                  - Vendredi :<br/>
+                  - Samedi :</p>
+                </div>
+                <div class="col-xs-8">
+                   <p>06h00 > 13h00<br/>
+                    06h00 > 12h00 14h00 > 19h00<br/>
+                    06h00 > 13h00<br/>
+                    13h00 > 19h00<br/>
+                    06h00 > 12h00* (un samedi sur deux)</p>
+                 </div>
+                </div>
+                <p>*Septembre 	les 05/09 et 26/09</p>
+                <h3>• Horaires des Visites à domicile</h3>
+                <div class="row">
+                  <div class="col-xs-4">
+                    <p>- Lundi :<br/>- Mardi :<br/>- Jeudi :</p>
+                  </div>
+                  <div class="col-xs-8">
+                    <p>après-midi<br/>matin<br/>après-midi</p>
+                  </div>
+                </div>
             </div>
           </div>
-          
       </div>
   </section>
   
@@ -120,20 +155,29 @@
           <h1 class="well">Prise de rendez-vous, renseignements, …</h1>
           
           <div class="row">
-            <div class="col-md-6">
-              <p>• 	Pour contacter le Dr CARDI :<br/>
-              - Télephone : 	0596 61 45 51<br/>
-              - Fax : 	0596 61 03 77<br/>
-              - Mail : b.cardi@orange.fr<br/>
+            <div class="col-sm-11 col-sm-offset-1 col-md-6 col-md-offset-0">
+              <h3>• 	Pour contacter le Dr CARDI :</h3>
+              <p>- Télephone : 	0596 61 45 51</p>
+              <p>- Fax : 	0596 61 03 77</p>
+              <p>- Mail :<a href="mailto:b.cardi@orange.fr">b.cardi@orange.fr</a><br/>
               (Cliquer sur l'adresse pour poster un message)</p>
             </div>
             
-            <div class="col-md-6">
-              <p>• 	Pour contacter le Dr ROY-CAMILLE :<br/>
-              - Portable : 	0696 26 23 49<br/>
-              - Fax : 	0596 61 03 77<br/>
-              - Mail : dr.roycamille@sos-dom.com<br/>
+            <div class="col-sm-11 col-sm-offset-1 col-md-6 col-md-offset-0">
+              <h3>• 	Pour contacter le Dr ROY-CAMILLE :</h3>
+              <p>- Portable : 	0696 26 23 49</p>
+              <p>- Fax : 	0596 61 03 77</p>
+              <p>- Mail : <a href="mailto:dr.roycamille@sos-dom.com">dr.roycamille@sos-dom.com</a><br/>
               (Cliquer sur l'adresse pour poster un message)</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-4">
+              <h3>Courrier :</h3>
+              <p>34 Boulevard du 25 juin 1935<br/>
+              97233 Schœlcher<br/>
+              Martinique</p>
             </div>
           </div>
           
@@ -143,24 +187,60 @@
   <section class="jumbotron" id="menu4">
       <div class="container">
           <h1 class="well">Localisation</h1>
-          <p>Pour vous rendre au Cabinet Médical de Batelière
-          34 Boulevard du 25 juin 1935
-97233 - Schœlcher - Martinique</p>
+          <p>Pour vous rendre au Cabinet Médical de Batelière : 34 Boulevard du 25 juin 1935 - 97233 Schœlcher - Martinique
+          </p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/martinique.png" alt="Carte de la Martinique"/>
+            </div>
+            <div class="col-md-6">
+              <img src="images/bateliere.png" alt="Carte quartier Batelière Schœlcher"/>
+            </div>
+          </div>
+              
       </div>
   </section>
   
   <section class="jumbotron" id="menu5">
       <div class="container">
           <h1 class="well">Numéros utiles</h1>
-          <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-          </p>
+          
+          <div class="row orange">
+            <div class="col-xs-6 col-xs-offset-1 col-md-4 col-md-offset-2">
+              <p>SAMU</p>
+              <p>Pompiers</p>
+              <p>SOS Médecins</p>  
+            </div>
+            <div class="col-xs-5 col-md-4">
+              <p>115</p>
+              <p>18</p>
+              <p>0596 633 333</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-1 col-md-4 col-md-offset-2">
+              <p>Allo Enfance en danger</p>
+              <p>Drogues Infos Services</p>
+              <p>Sida Infos Service</p>
+            </div>
+            <div class="col-xs-5 col-md-4">
+              <p>119</p>
+              <p>0800 213 313</p>
+              <p>0800 840 800</p>
+            </div>
+          </div>
+          
       </div>
   </section>
   
   <section class="jumbotron" id="menu6">
       <div class="container">
-          <h1 class="well">Informations</h1>
-          <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+          <h1 class="well">Informations diverses</h1>
+          <h3>En cas de fièvre</h3>
+          <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
           </p>
       </div>
   </section>
