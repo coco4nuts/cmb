@@ -5,6 +5,10 @@
 nav img {
     padding: 10px;
 }
+img.navbar-brand {
+    margin: 0;
+    padding: 4px;
+}
 /*------------------- Page -----------------------*/
 .jumbotron {
     padding-top: 200px;
@@ -23,3 +27,6 @@ h2 {
     background-color: #ff6633;
     color: #ffffff;
 }
+
+/*---------------- Medias Queries -----------------------*/
+
